@@ -1,1 +1,4 @@
-# Embedded-1
+# Embedded LED Sequencer using C and RTOS on Arduino Nano RP2040 
+I worked on interfacing a microcontroller, specifically the Arduino Nano RP2040, and setting up a development environment for coding in C. The main objective was to ensure that the microcontroller could be programmed correctly and that all necessary configurations were in place.
+I developed an embedded C program to control three LEDs—Red, Green, and Blue. I connected the Red and Green LEDs using a positive logic configuration with a series resistor and the Blue LED using a negative logic configuration with an external pull-up resistor. 
+The LED sequence was implemented as follows: Initially, all LEDs remained off for the first five seconds. Then, the Red LED turned on for one second and switched off, followed by the Green LED for one second, then the Blue LED for one second. Afterward, all three LEDs turned on simultaneously for two seconds before turning off. This entire sequence repeated continuously in a 10-second cycle. The implementation followed coding standards and was well-commented to ensure clarity and maintainability.
